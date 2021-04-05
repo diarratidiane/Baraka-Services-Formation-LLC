@@ -1,0 +1,41 @@
+html{
+    height: 100px;
+}
+
+
+body {
+    background-color: aqua;
+    background-position: 0em;
+    background-size: 110px;
+    background-attachment: fixed;
+}
+ 
+
+
+
+header {
+    background-color:blue ;
+    height: 110px;
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.383);
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+main  {
+    height: 400px;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+footer {
+    background-color: rgba(0, 128, 0, 0.253);
+    padding-top: 100px;
+    padding-top: 60px;
+}
