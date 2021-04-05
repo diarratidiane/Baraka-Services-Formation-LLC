@@ -37,21 +37,36 @@
             <p> Votre satisfaction notre voir</p>
             <a href="mailto:infos@baraka-services.ml?Subject=Renseignement">Contacter nous Par email</a>
         </main>
-        
+    <!-- Messenger Plug-in Discussion Code -->
+    <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v10.0'
+          });
+        };
 
-        <section class="maps">
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://connect.facebook.net/fr_FR/sdk/xfbml.customerchat.js';
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      </script>
+
+      <!-- Your Plug-in Discussion code -->
+      <div class="fb-customerchat"
+        attribution="setup_tool"
+        page_id="101222108748520">
+      </div>
+</body>
+<section class="maps">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3898.1360782495617!2d-1.4976802857014109!3d12.30662163245094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xe2ebda496f672fd%3A0xece7a4cade7b198!2sAvenue%20Ousmane%20SEMBENE%2C%20Ouaga%202000%2C%20Ouagadougou%2C%20Burkina%20Faso!5e0!3m2!1sen!2sca!4v1617574500093!5m2!1sen!2sca" width="2121" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </section>
         
         <footer>
             <p>Avenue Sekou Toure, co Lome, All Copyright reserve to Baraka services & Formation </p>
         </footer>
-
-
-    </div>
-
-
-
-</body>
-
 </html>
